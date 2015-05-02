@@ -56,18 +56,22 @@ header hgroup {
 /* -------------------------------------------------- 
    main content styles
 -----------------------------------------------------*/
+
 section.main {
 	margin-bottom: 2em;
+	display: flex;
 }
 .featured {
 	-webkit-order: 1;
 	-ms-flex-order: 1;
 	order: 1;
+	flex: 3;
 }
 .sidebar {
 	-webkit-order: 0;
 	-ms-flex-order: 0;
 	order: 0;
+	flex: 1;
 	margin-right: 2em;
 } 
 ul.social {
@@ -85,6 +89,9 @@ ul.social {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+}
+.spotlight article {
+	flex: 1;
 }
 .latest {
 	display: -webkit-flex;

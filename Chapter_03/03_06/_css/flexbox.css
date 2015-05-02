@@ -33,6 +33,7 @@ nav ul {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
 }
 nav li {
 	display: -webkit-flex;
@@ -41,6 +42,7 @@ nav li {
 }
 nav li.search-form {
 	margin-right: 1em;
+	margin-left: auto;
 }
 /* -------------------------------------------------- 
    header styles
@@ -49,6 +51,7 @@ header hgroup {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: baseline;
 }
 /* -------------------------------------------------- 
    main content styles
@@ -80,6 +83,7 @@ ul.social {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	justify-content: space-around;
 }
 /* -------------------------------------------------- 
    spotlight content styles
@@ -109,6 +113,8 @@ footer {
 	display: -ms-flexbox;
 	display: flex;
 	min-height: 4em;
+	justify-content: center;
+	align-items: center;
 }
 
 /* -------------------------------------------------- 
@@ -169,7 +175,9 @@ nav li.search-form {
   header styles
 -----------------------------------------------------*/
 header hgroup {
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* -------------------------------------------------- 
    main content styles
